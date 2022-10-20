@@ -1,0 +1,319 @@
+@media screen and (min-device-width: 600px){
+body{
+    margin: 0;
+    align-items: center;
+    font-size: 14px;
+}
+
+header{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 70px;
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(41, 42, 37);
+}
+
+footer div{
+    min-height: 10vh;
+    text-align: center;
+    color: white;
+    width: 27vw;
+}
+
+.mainDiv{
+    background-color: rgb(203, 217, 228);
+    height: 80vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    min-height: 50vh;
+}
+
+.imgDiv{
+    position: relative;
+}
+
+.stuffDiv{
+    width: 20vw;
+}
+
+.pagesMob{
+    display: inline;
+}
+
+.pagesMob li{
+    display: inline;
+    margin: 1vw;
+}
+
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#man{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6.5vw;
+    width: 180px;
+    height: 160px;
+}
+
+#people{
+    margin-top: 3vh;
+    width: 280px;
+    height: 200px;
+}
+
+#building{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+#textNButton{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    width: 20vw;
+    margin-bottom: 8vh;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 47px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    background-color: rgb(203, 217, 228);
+    border: 1px solid black;
+}
+
+#whiteBlock{
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 19vw;
+    height: 28vh;
+    background-color: white;
+    margin-bottom: 15vh;
+    margin-right: 10vw;
+    left: 15vw;
+    top: 8vh;
+    z-index: 10;
+    text-align: left;
+}
+
+#whiteBlock > *{
+    padding-left: 20px;
+}
+
+#whiteBlock h1{
+    padding-top: 20px;
+}
+
+#menuButton{
+    border: none;
+    background: none;
+    padding: 0;
+}
+}
+
+@media screen and (max-device-width: 600px){
+
+    body{
+        margin: 0;
+        align-items: center;
+        font-size: 14px;
+    }
+    
+    img #logo{
+        margin-right: 3vw;
+        width: 20vw;
+        height: 8vh;
+    }
+
+    #menuButton{
+        background-image: url(D:/uniStuff/webLab4/Images/menu.jpg);
+        background-repeat: no-repeat;
+        margin-left: 35vw;
+        padding: 1.5vh 9vw;
+    }
+
+    
+
+    .pagesMob{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .pagesMob a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      #menuButton:hover .pagesMob {
+        display: block;
+      }
+    
+    header{
+        display: flex;
+        height: 5vh;
+        width: 100%;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    footer{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(41, 42, 37);
+    }
+    
+    footer div{
+        font-size: 1vh;
+        text-align: center;
+        color: white;
+        width: 70vw;
+    }
+    
+    .mainDiv{
+        background-color: rgb(203, 217, 228);
+        height: 90vh;
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content{
+        display:flex;
+        flex-direction: column;
+        width: 80vw;
+        min-height: 50vh;
+    }
+    
+    .imgDiv{
+        position: relative;
+    }
+    
+    .stuffDiv{
+        width: 20vw;
+    }
+   
+    a{
+        font-size: 2vh;
+    }
+    
+    a:link {
+        color: black;
+        background-color: transparent;
+        text-decoration: none;
+      }
+    a:visited {
+        color: orange;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    #man{
+        margin-left: 10vw;
+        width: 60vw;
+        height: 20vh;
+    }
+    
+    #people{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 50vw;
+        height: 14vh;
+    }
+    
+    #building{
+        position: absolute;
+        width: 50vw;
+        height: 25vh;
+    }
+    
+    #textNButton{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1vh;
+        width: 50vw;
+        margin-top: 26vh;
+    }
+    
+    button{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 47px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        background-color: rgb(203, 217, 228);
+        border: 1px solid black;
+    }
+    
+    #whiteBlock{
+        position: absolute;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 1vh;
+        width: 50vw;
+        height: 20vh;
+        background-color: white;
+        margin-bottom: 15vh;
+        margin-right: 10vw;
+        left: 15vw;
+        top: 3vh;
+        z-index: 10;
+        text-align: left;
+    }
+    
+    #whiteBlock > *{
+        padding-left: 3vw;
+    }
+    
+    #whiteBlock h1{
+        padding-top: 1vh;
+    }
+}
