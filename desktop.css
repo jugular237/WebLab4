@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 420px){
+@media screen and (min-device-width: 330px){
 body{
     margin: 0;
     align-items: center;
@@ -160,7 +160,7 @@ a:visited {
 }
 }
 
-@media screen and (max-device-width: 420px){
+@media screen and (max-device-width: 330px){
 
     body{
         margin: 0;
