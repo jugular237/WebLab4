@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 330px){
+@media screen and (min-device-width: 500px){
 body{
     margin: 0;
     align-items: center;
@@ -160,7 +160,7 @@ a:visited {
 }
 }
 
-@media screen and (max-device-width: 330px){
+@media screen and (max-device-width: 500px){
 
     body{
         margin: 0;
@@ -248,9 +248,9 @@ a:visited {
     
     .imgDiv{
         height: 500px;
-        width: 600px;
+        width: 500px;
         background-image: url('Images/building.jpg');
-        background-size: 80%;
+        background-size: 90%;
         background-repeat: no-repeat;
         display: flex;
         flex-direction: row;
@@ -261,12 +261,13 @@ a:visited {
     .stuffDiv{
         width: 700px;
         height: 690px;
+        margin-top: 100px;
     }
 
     .stuff1Div{
         width: 800px;
         height: 600px;
-        margin-bottom: 100px;
+        margin-bottom: 230px;
     }
    
     a{
@@ -285,16 +286,18 @@ a:visited {
     }
     
     #man{
+        object-fit: cover;
         margin-left: 100px;
-        width: 550px;
-        height: 500px;
+        width: 450px;
+        height: 400px;
     }
     
     #people{
-        margin-top: 50px;
-        margin-bottom: 50px;
-        width: 480px;
-        height: 400px;
+        object-fit: cover;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 380px;
+        height: 300px;
     }
     
     
@@ -319,10 +322,9 @@ a:visited {
         font-family:Arial, Helvetica, sans-serif;
         font-size: 25px;
         width: 400px;
-        height: 400px;
+        height: 350px;
         background-color: white;
-
-        margin-right: 100px;
+        margin-bottom: 50px;
         text-align: left;
     }
     
